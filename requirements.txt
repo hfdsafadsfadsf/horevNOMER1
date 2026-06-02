@@ -1,0 +1,26 @@
+# --- Vizard Clone dependencies ---
+# Python 3.10+ required
+
+# GUI
+customtkinter>=5.2.2
+Pillow>=10.0.0
+
+# Video download
+yt-dlp>=2024.10.0
+
+# Transcription (CPU-friendly, 4x faster than openai-whisper)
+faster-whisper>=1.0.3
+
+# AI analysis (DeepSeek API is OpenAI-compatible)
+openai>=1.40.0
+
+# Smart 9:16 reframing with face tracking
+opencv-python>=4.9.0
+numpy>=1.26.0
+
+# HTTP and utils
+requests>=2.32.0
+tqdm>=4.66.0
+
+# .env support (optional, for DEEPSEEK_API_KEY)
+python-dotenv>=1.0.0
